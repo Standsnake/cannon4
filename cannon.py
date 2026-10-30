@@ -55,8 +55,10 @@ def move():
         target = vector(200, y)
         targets.append(target)
 
+    #cambio de 0.5 a 2    
+
     for target in targets:
-        target.x -= 0.5
+        target.x -= 2
 
     if inside(ball):
         speed.y -= 0.35
